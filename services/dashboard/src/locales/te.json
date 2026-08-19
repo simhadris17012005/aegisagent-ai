@@ -1,0 +1,18 @@
+{
+  "brand": "ఏజిస్ఏజెంట్ · KESHA-SEC",
+  "live": "ప్రత్యక్షం",
+  "mitreMatrix": "MITRE ATT&CK మ్యాట్రిక్స్",
+  "incidentStream": "ప్రత్యక్ష సంఘటనల ప్రవాహం",
+  "threatStats": "ముప్పు గణాంకాలు",
+  "waiting": "ట్రాఫిక్ కోసం వేచి ఉంది...",
+  "clean": "సురక్షితం",
+  "totalIncidents": "మొత్తం సంఘటనలు",
+  "threatRate": "ముప్పు రేటు",
+  "action": "చర్య",
+  "confidence": "విశ్వసనీయత",
+  "severity": "తీవ్రత",
+  "noHits": "ఇంకా హిట్‌లు లేవు",
+  "hits": "హిట్‌లు",
+  "testPayload": "టెస్ట్ పేలోడ్ పంపండి",
+  "send": "పరిశీలించు"
+}

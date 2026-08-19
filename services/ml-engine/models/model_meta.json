@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "BENIGN",
+    "COMMAND_INJECTION",
+    "PHISHING",
+    "SQL_INJECTION",
+    "XSS"
+  ],
+  "test_accuracy": 0.9744,
+  "vectorizer": "tfidf_char_wb_2_4",
+  "model": "logistic_regression",
+  "n_train": 310,
+  "n_test": 78
+}

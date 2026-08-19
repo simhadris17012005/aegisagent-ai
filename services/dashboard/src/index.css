@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #0A0C10;
+  --color-steel: #12161F;
+  --color-steel-light: #1B2130;
+  --color-line: #262E3D;
+  --color-crimson: #FF3B4E;
+  --color-amber: #FFB020;
+  --color-cyan: #38E1C6;
+  --color-mist: #8B95A7;
+  --color-bone: #EDF0F5;
+
+  --font-display: "Chakra Petch", sans-serif;
+  --font-body: "Inter", "Noto Sans Telugu", "Noto Sans Devanagari", "Noto Sans Tamil", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  background: var(--color-void);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--color-void); }
+::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 4px; }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(56, 225, 198, 0.5); }
+  50% { opacity: 0.6; box-shadow: 0 0 0 6px rgba(56, 225, 198, 0); }
+}
+.live-dot { animation: pulse-dot 2s ease-in-out infinite; }
+
+@keyframes row-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.row-in { animation: row-in 0.35s ease-out; }
+
+@keyframes tile-flash {
+  0% { filter: brightness(2.2); }
+  100% { filter: brightness(1); }
+}
+.tile-flash { animation: tile-flash 0.6s ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  .live-dot, .row-in, .tile-flash { animation: none !important; }
+}

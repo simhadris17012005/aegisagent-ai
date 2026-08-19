@@ -1,0 +1,18 @@
+{
+  "brand": "AEGISAGENT · KESHA-SEC",
+  "live": "LIVE",
+  "mitreMatrix": "MITRE ATT&CK Matrix",
+  "incidentStream": "Live Incident Stream",
+  "threatStats": "Threat Statistics",
+  "waiting": "Waiting for traffic...",
+  "clean": "Clean",
+  "totalIncidents": "Total Incidents",
+  "threatRate": "Threat Rate",
+  "action": "Action",
+  "confidence": "Confidence",
+  "severity": "Severity",
+  "noHits": "No hits yet",
+  "hits": "hits",
+  "testPayload": "Send Test Payload",
+  "send": "Inspect"
+}

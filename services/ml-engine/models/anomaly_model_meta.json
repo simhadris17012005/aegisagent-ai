@@ -1,0 +1,15 @@
+{
+  "algorithm": "IsolationForest",
+  "features": [
+    "packets_per_sec",
+    "bytes_per_sec",
+    "duration_sec",
+    "unique_dst_ports",
+    "syn_ratio",
+    "avg_packet_size",
+    "failed_conn_ratio"
+  ],
+  "validation_accuracy": 0.9368,
+  "n_estimators": 200,
+  "contamination": 0.05
+}

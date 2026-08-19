@@ -1,0 +1,18 @@
+{
+  "brand": "एजिसएजेंट · KESHA-SEC",
+  "live": "लाइव",
+  "mitreMatrix": "MITRE ATT&CK मैट्रिक्स",
+  "incidentStream": "लाइव घटना स्ट्रीम",
+  "threatStats": "खतरा आंकड़े",
+  "waiting": "ट्रैफ़िक की प्रतीक्षा है...",
+  "clean": "सुरक्षित",
+  "totalIncidents": "कुल घटनाएं",
+  "threatRate": "खतरा दर",
+  "action": "कार्रवाई",
+  "confidence": "विश्वास",
+  "severity": "गंभीरता",
+  "noHits": "अभी तक कोई हिट नहीं",
+  "hits": "हिट्स",
+  "testPayload": "टेस्ट पेलोड भेजें",
+  "send": "जांचें"
+}

@@ -1,0 +1,67 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-aegis_telemetry}
+      POSTGRES_USER: ${POSTGRES_USER:-aegis_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ../configs/database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "5432:5432"
+
+  ml-engine:
+    build:
+      context: ../services/ml-engine
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    volumes:
+      - ../services/ml-engine/models:/app/models:ro
+
+  agent-core:
+    build:
+      context: ../services/agent-core
+    restart: unless-stopped
+    environment:
+      NVIDIA_NIM_API_KEY: ${NVIDIA_NIM_API_KEY:-}
+      PRIMARY_MODEL: ${PRIMARY_MODEL:-nvidia/nemotron-3-super-120b-a12b}
+      FALLBACK_MODEL: ${FALLBACK_MODEL:-qwen2.5-coder:7b}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+    ports:
+      - "8002:8002"
+
+  gateway:
+    build:
+      context: ../services/gateway
+    restart: unless-stopped
+    environment:
+      ML_ENGINE_URL: http://ml-engine:8001/predict
+      AGENT_CORE_URL: http://agent-core:8002/investigate
+      DATABASE_URL: postgresql://${POSTGRES_USER:-aegis_admin}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-aegis_telemetry}
+      THREAT_SCORE_THRESHOLD: "0.80"
+    depends_on:
+      - ml-engine
+      - agent-core
+      - postgres
+    ports:
+      - "8000:8000"
+
+  dashboard:
+    build:
+      context: ../services/dashboard
+      args:
+        VITE_GATEWAY_HTTP: http://localhost:8000
+        VITE_GATEWAY_WS: ws://localhost:8000
+    restart: unless-stopped
+    depends_on:
+      - gateway
+    ports:
+      - "5173:80"
+
+volumes:
+  pgdata:
