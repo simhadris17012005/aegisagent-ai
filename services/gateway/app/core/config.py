@@ -22,7 +22,8 @@ CORS_ORIGINS = [
     origin.strip()
     for origin in os.getenv(
         "CORS_ORIGINS",
-        "http://localhost:5173"
+        "http://localhost:5173,https://aegisagent-ai-production-9d23.up.railway.app"
     ).split(",")
     if origin.strip()
 ]
+
