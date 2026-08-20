@@ -40,10 +40,18 @@ services:
       context: ../services/gateway
     restart: unless-stopped
     environment:
+      SQLITE_PATH: /data/audit_log.db
       ML_ENGINE_URL: http://ml-engine:8001/predict
       AGENT_CORE_URL: http://agent-core:8002/investigate
       DATABASE_URL: postgresql://${POSTGRES_USER:-aegis_admin}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-aegis_telemetry}
       THREAT_SCORE_THRESHOLD: "0.80"
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXPIRE_MINUTES: ${JWT_EXPIRE_MINUTES:-60}
+      ADMIN_USERNAME: ${ADMIN_USERNAME}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173}
+    volumes:
+      - gateway_data:/data
     depends_on:
       - ml-engine
       - agent-core
@@ -65,3 +73,4 @@ services:
 
 volumes:
   pgdata:
+  gateway_data:
