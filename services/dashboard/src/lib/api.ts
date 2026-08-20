@@ -1,9 +1,13 @@
 import type { Incident } from "../types";
 
 const GATEWAY_HTTP =
-  import.meta.env.VITE_GATEWAY_HTTP || "http://localhost:8000";
+  import.meta.env.VITE_GATEWAY_HTTP ||
+  "https://affectionate-upliftment-production-014e.up.railway.app";
+
 const GATEWAY_WS =
-  import.meta.env.VITE_GATEWAY_WS || "ws://localhost:8000";
+  import.meta.env.VITE_GATEWAY_WS ||
+  "wss://affectionate-upliftment-production-014e.up.railway.app";
+
 
 const TOKEN_KEY = "aegis_access_token";
 
